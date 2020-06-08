@@ -2,7 +2,7 @@
 import socket
 import threading
 PORT = 5050
-SERVER = socket.gethostbyname(socket.gethostname())
+SERVER = ''   #add the ip address of the server pc
 ADDR = (SERVER, PORT)
 
 
