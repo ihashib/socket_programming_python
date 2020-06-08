@@ -4,7 +4,7 @@ import socket
 import threading
 
 PORT = 5050  # uses the port 5050 but other free ports can be used
-SERVER = socket.gethostbyname(socket.gethostname())  # gets the host ip address
+SERVER = ''  # add ip addess of the server pc
 ADDR = (SERVER, PORT)
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 """opening a socket that allows other devices to
